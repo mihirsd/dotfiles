@@ -1,0 +1,18 @@
+[user]
+	name = Mihir Desai
+	email = mihir@mihirdesai.net
+
+[alias]
+	l = log --pretty=oneline -n 20 --graph --abbrev-commit
+	s = status -s
+	contributors = shortlog --summary --numbered
+	whoami = config user.email
+
+[branch]
+	sort = -committerdate
+
+[rerere]
+	enabled = true
+
+[init]
+	defaultBranch = main
