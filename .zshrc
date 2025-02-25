@@ -71,7 +71,6 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-asdf
 git
 z
 zsh-autosuggestions
@@ -111,5 +110,9 @@ source $ZSH/oh-my-zsh.sh
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-alias love="/Applications/love.app/Contents/MacOS/love"
+alias bbic="brew update &&\
+    brew bundle install --cleanup --file=~/.config/Brewfile --no-lock &&\
+    brew upgrade"
+
+eval "$(~/.local/bin/mise activate zsh)"
 
