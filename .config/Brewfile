@@ -1,3 +1,5 @@
 brew "git"
 brew "curl"
 
+brew "openssl"
+
