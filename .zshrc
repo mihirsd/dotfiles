@@ -114,5 +114,4 @@ alias bbic="brew update &&\
     brew bundle install --cleanup --file=~/.config/Brewfile --no-lock &&\
     brew upgrade"
 
-eval "$(~/.local/bin/mise activate zsh)"
-
+eval "$(mise activate zsh)"
