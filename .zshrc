@@ -111,7 +111,7 @@ source $ZSH/oh-my-zsh.sh
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias bbic="brew update &&\
-    brew bundle install --cleanup --file=~/.config/Brewfile --no-lock &&\
+    brew bundle install --cleanup --file=~/Brewfile &&\
     brew upgrade"
 
 eval "$(mise activate zsh)"
