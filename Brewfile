@@ -1,0 +1,7 @@
+brew "openssl@3"
+brew "curl"
+brew "git"
+brew "gmp"
+brew "libyaml"
+brew "mise"
+brew "rust"
