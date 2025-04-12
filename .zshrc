@@ -115,3 +115,5 @@ alias bbic="brew update &&\
     brew upgrade"
 
 eval "$(mise activate zsh)"
+
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
