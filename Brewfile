@@ -7,6 +7,7 @@ brew "libyaml"
 brew "mise"
 brew "redis", restart_service: :changed
 brew "rust"
+cask "orbstack"
 vscode "astro-build.astro-vscode"
 vscode "bradlc.vscode-tailwindcss"
 vscode "dbaeumer.vscode-eslint"
