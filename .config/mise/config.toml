@@ -2,4 +2,3 @@
 "aqua:BurntSushi/ripgrep" = "latest"
 "aqua:sharkdp/bat" = "latest"
 node = "22"
-ruby = "3"
