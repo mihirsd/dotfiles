@@ -117,3 +117,5 @@ alias bbic="brew update &&\
 eval "$(mise activate zsh)"
 
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+export RUBYOPT="--yjit"
