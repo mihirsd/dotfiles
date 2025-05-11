@@ -1,0 +1,18 @@
+brew "openssl@3"
+brew "curl"
+brew "git"
+brew "gmp"
+brew "libpq", link: true
+brew "libyaml"
+brew "mise"
+brew "redis", restart_service: :changed
+brew "rust"
+cask "orbstack"
+vscode "astro-build.astro-vscode"
+vscode "bradlc.vscode-tailwindcss"
+vscode "dbaeumer.vscode-eslint"
+vscode "esbenp.prettier-vscode"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "heybourn.headwind"
+vscode "mechatroner.rainbow-csv"

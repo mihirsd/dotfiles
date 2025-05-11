@@ -1,0 +1,4 @@
+[tools]
+"aqua:BurntSushi/ripgrep" = "latest"
+"aqua:sharkdp/bat" = "latest"
+node = "22"
